@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#063334",
+    "titleBar.activeBackground": "#084749",
+    "titleBar.activeForeground": "#EFFDFD"
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash",
+      "args": [
+        "--init-file",
+        ".bashrc"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "vs-kubernetes": {
+    "disable-linters": [
+      "resource-limits"
+    ],
+  }
+}
