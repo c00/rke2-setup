@@ -5,7 +5,7 @@ This repo contains install scripts and some test resources.
 ## Create a new cluster and initialize the node with the control plane
 
 ```sh
-sudo scripts/install-server.sh
+sudo ./scripts/install-server.sh
 ```
 
 After installation, test your connection on the server itself. Then copy the `~/.kube/config` file to your workstation, adjust the IP address inside, and confirm you can connect to your cluster from your workstation as well.
@@ -15,7 +15,7 @@ After installation, test your connection on the server itself. Then copy the `~/
 Make sure you have the server ip and node token from the first node. See the install node scripts for more details.
 
 ```sh
-sudo scripts/install-node.sh
+sudo ./scripts/install-node.sh
 ```
 
 ## Create test resources
